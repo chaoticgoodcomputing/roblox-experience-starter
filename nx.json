@@ -9,5 +9,10 @@
       "default"
     ],
     "sharedGlobals": []
+  },
+  "release": {
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }

@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@jscutlery/semver": "^5.2.2",
     "@nx/js": "19.1.0",
     "@nx/workspace": "19.1.0",
     "nx": "19.1.0"
