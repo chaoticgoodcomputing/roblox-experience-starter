@@ -24,16 +24,16 @@
         "semverBump": "patch",
         "changelog": false
       },
+      "styles": {
+        "semverBump": "patch",
+        "changelog": false
+      },
       "fix": {
         "semverBump": "patch",
         "changelog": {
           "hidden": false,
           "title": "Bug Fixes"
         }
-      },
-      "styles": {
-        "semverBump": "patch",
-        "changelog": false
       },
       "perf": {
         "semverBump": "feature",
