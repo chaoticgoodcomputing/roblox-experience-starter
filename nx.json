@@ -13,6 +13,43 @@
   "release": {
     "version": {
       "conventionalCommits": true
+    },
+    "conventionalCommits": {
+      "docs": false,
+      "chore": {
+        "semverBump": "patch",
+        "changelog": false
+      },
+      "deps": {
+        "semverBump": "patch",
+        "changelog": false
+      },
+      "fix": {
+        "semverBump": "patch",
+        "changelog": {
+          "hidden": false,
+          "title": "Bug Fixes"
+        }
+      },
+      "styles": {
+        "semverBump": "patch",
+        "changelog": false
+      },
+      "perf": {
+        "semverBump": "feature",
+        "changelog": {
+          "hidden": false,
+          "title": "Performance Improvements"
+        }
+      },
+      "feat": {
+        "semverBump": "feature",
+        "changelog": {
+          "hidden": false,
+          "title": "New Features"
+        }
+      }
     }
   }
+}
 }
