@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "game-place": {
+      "factory": "./src/generators/game-place/generator",
+      "schema": "./src/generators/game-place/schema.json",
+      "description": "game-place generator"
+    }
+  }
+}
